@@ -19,3 +19,28 @@ uv.lock
 .ruff_cache/
 .coverage
 htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Runtime/generated state
+*.sqlite
+*.sqlite3
+*.db
+*.jsonl
+
+# Local IDE/workspace files
+*.code-workspace
+
+# Submission archives
+*.zip
+
+# Keep the successful Claims Intake evidence run
+!Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/runs/
+!Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/runs/20260925_200251/
+!Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/runs/20260925_200251/**/*.jsonl
